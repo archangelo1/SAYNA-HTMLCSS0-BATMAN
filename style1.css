@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+  margin: 0;
+  padding: 0;  
+  font-family: 'Roboto', sans-serif;
+  color: white ;
+}
+
+h1
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium;
+    font-size: 36px;
+}
+
+.bouton
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+}
+
+/*.affiche-film
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}*/
+
+h2
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;  
+}
+
+#div-primaire
+{
+    height: 100vh;
+    background-image: url("Illustrations/Bathome1.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: top;
+}
+
+#div-secondaire
+{
+    border-left: 2px solid rgba(255,255,255,0.1);
+    border-right: 2px solid rgba(255,255,255,0.1);
+    margin: 0 102px;
+}
+
+#div1
+{
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    height: 132px;
+}
+
+header
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#intro
+{
+    width: 43%;
+    text-align: center;
+    margin: 15% auto 5% auto;
+}
